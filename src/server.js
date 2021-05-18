@@ -26,6 +26,7 @@ function start( port ){
   app.listen( port, ()=>{
     console.log( `litening on PORT ${port}` );
   } );
+}
 
 module.exports ={
   app: app,
